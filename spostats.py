@@ -5,10 +5,6 @@ from dotenv import load_dotenv
 import json
 from spotipy.oauth2 import SpotifyOAuth
 
-# sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="009f03ceb93c46f08a470c8aac468a6b",
-#                                                client_secret="fe9099a9c32749dda4d5ce9087c2f78f",
-#                                                redirect_uri="http://127.0.0.1:9090",
-#                                                scope="user-library-read"))
 # results = sp.current_user_top_tracks()["items"]
 # print(type(results))
 # print(f'{results[0]["artists"][0]["name"]} - {results[0]["name"]} ({results[0]["album"]["name"]})')
